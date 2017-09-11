@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/seriousr"
+        android:state_checked="true"
+        android:state_pressed="true" />
+    <item
+        android:drawable="@drawable/seriousg"
+        android:state_pressed="true" />
+    <item
+        android:drawable="@drawable/seriousr"
+        android:state_checked="true" />
+    <item
+        android:drawable="@drawable/serious" />
+</selector>

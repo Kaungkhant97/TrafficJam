@@ -8,10 +8,11 @@ import com.unihackchallenge.mmtrafficreport.BuildConfig;
  */
 public class APIConfig {
 
-  public static final String BASE_URL = "https://localhost:3000";
-  public static final String SUBJECT_LIST = "subject/";
-  public static String TEST_BASE_URL = "http://localhost:5000/";
-  public static final String EVENT_LIST = "events";
+  public static final String TRAFFIC_LIST = "/location/";
+  public static final String RECENT_TRAFFIC_LIST = "/location/recent";
+
+  public static String TEST_BASE_URL = "https://ancient-basin-31535.herokuapp.com";
+
 
 
 
